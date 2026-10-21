@@ -1,0 +1,14 @@
+# Build output
+build/
+dist/
+out/
+.vs/
+*.dll
+*.lib
+*.exp
+*.pdb
+*.obj
+
+# Runtime data (contains game shader code; never commit)
+*.bin
+*.log
