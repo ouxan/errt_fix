@@ -25,8 +25,8 @@ refit thinning saves about 1 ms per frame.
 ## Installation
 
 1. Copy `dinput8.dll` and `errt_fix.ini` next to `eldenring.exe` (`ELDEN RING\Game\`).
-2. Create `steam_appid.txt` in the same folder containing `1245620`, and start `eldenring.exe`
-   directly (not `start_protected_game.exe`). The game starts in offline mode without Easy Anti-Cheat.
+2. Start the game with Easy Anti-Cheat disabled. Easy Anti-Cheat blocks unsigned DLLs, so errt_fix
+   only works when the game runs without it, which also means offline mode.
 3. Build the cache once: set `rt_scan=1` in `errt_fix.ini`, start the game, wait about one minute in
    the main menu, quit, and set `rt_scan=0` again.
 
